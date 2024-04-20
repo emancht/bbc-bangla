@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&display=swap");
+
+body {
+  font-family: "Noto Serif Bengali", Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #b80000;
+  height: 64px;
+}
+header .container {
+  height: 100%;
+}
+header .logo {
+  width: 250px;
+}
+.navbar {
+  height: 48px;
+  box-shadow: 0.5px 0.5px 8px rgba(128, 128, 128, 0.2);
+}
+
+.navbar .nav-link:hover,
+.navbar .active {
+  border-bottom: 4px solid #b80000;
+}
+.hero {
+  height: 300px;
+  background: #e6e8ea;
+}
+.card {
+  border: none;
+}
+
+.features .card-body {
+  border-top: 1px solid #e6e8ea;
+}
+
+.most-read a {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.most-read a:hover {
+  text-decoration: underline;
+}
+.most-read .lg-num {
+  color: #b80000;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+.text-dark {
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 5px;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  margin: 10px 0;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+.b-bottom {
+  border-bottom: 0.6px solid #333;
+}
